@@ -27,4 +27,4 @@ app.register_blueprint(horario_bp, url_prefix='/horarios')
 app.register_blueprint(ubicacion_bp, url_prefix='/ubicacion')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
