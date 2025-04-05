@@ -1,4 +1,5 @@
 from flask import Blueprint, jsonify, request
+from config import db
 from controllers.entradasSalidasController import get_all_entradas_salidas, create_entrada_salida, update_entrada_salida, delete_entrada_salida, get_entrada_salida
 
 
